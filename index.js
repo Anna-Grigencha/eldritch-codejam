@@ -1,6 +1,6 @@
 
 //import ancientsData from './data/ancients';
-import cards from './assets/MythicCards/brown';
+//import cards from './assets/MythicCards/brown';
 
 const ancientsCard = document.querySelectorAll(".ancients-card");
 const difficulty = document.querySelectorAll(".difficulty");
