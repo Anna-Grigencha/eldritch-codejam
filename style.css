@@ -1,18 +1,18 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("assets/home.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    margin: 0;
+  
 }
 
 .container {
-    width: 100%;
-    height: 100%;
+  
+    background-image: url("assets/home.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-
-    /*justify-content: space-around; */
-   
+    gap: 20px;
+    height: 100vh;
+    width: 100vw;
 }
 
 .ancients-container {
@@ -192,4 +192,17 @@ mix{
 
 .mix.active {
     background-color: blue;
+}
+
+.deck {
+    display: none;
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    background-image: url("./assets/mythicCardBackground.png");
+    cursor: pointer;
+}
+
+.deck.active {
+    display: block;
 }

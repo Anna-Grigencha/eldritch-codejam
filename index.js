@@ -1,11 +1,13 @@
 
 //import ancientsData from './data/ancients';
+import cards from './assets/MythicCards/brown';
 
 const ancientsCard = document.querySelectorAll(".ancients-card");
 const difficulty = document.querySelectorAll(".difficulty");
 const difficultyContainer = document.querySelector(".difficulty-container");
 const currentState = document.querySelector(".current-state"); 
 const mix = document.querySelector(".mix");
+const deck = document.querySelector(".deck");
 let nameAncient = "";
 const dotGreenStage1 = document.querySelector(".stage1 .dot.green");
 const dotBrownStage1 = document.querySelector(".stage1 .dot.brown"); 
@@ -93,6 +95,7 @@ console.log(difficulty.length);
     function setMixActive () {
       mix.classList.remove("display-block");
       currentState.classList.add("active");
+      deck.classList.add("active");
 
       if(nameAncient === "azathoth" )
       {
@@ -145,8 +148,6 @@ console.log(difficulty.length);
 
 
     }
-
-  
 
     mix.addEventListener("click", setMixActive);
     
