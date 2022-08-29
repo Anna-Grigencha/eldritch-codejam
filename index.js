@@ -20,14 +20,9 @@ const dotBrownStage3 = document.querySelector(".stage3 .dot.brown");
 const dotBlueStage3 = document.querySelector(".stage3 .dot.blue"); 
 
 
-
-console.log(dotGreenStage1);
-
-//console.log(ancientsCard);
 for (let i=0; i<ancientsCard.length; i++) {
     ancientsCard[i].classList.remove("active");
 }
-console.log(difficulty.length);
 
 (function () {
 
