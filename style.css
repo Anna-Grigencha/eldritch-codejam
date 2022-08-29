@@ -76,7 +76,7 @@ body {
 }
 
 .difficulty {
-    width: 33%;
+    width: 210px;
     height: 40px;
     border: 2px solid red;
     display: flex;
@@ -162,7 +162,7 @@ body {
 
 
 .mix {
-    width: 33%;
+    width: 210px;
     height: 40px;
     border: 2px solid red;
     display: none;
